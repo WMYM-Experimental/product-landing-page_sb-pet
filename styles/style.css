@@ -125,6 +125,27 @@ a:hover{
     border-color: var(--green-logo);
 }
 
+/* About */
+
+#about{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 2rem 4rem;
+    color: var(--blue-logo)
+}
+
+.about__item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid var(--red-logo);
+    color: var(--blue-logo)
+}
+
 /* Footer */
 
 #footer{
